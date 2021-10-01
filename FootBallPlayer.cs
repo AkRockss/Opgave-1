@@ -25,11 +25,7 @@ namespace FootBall
             get => _id;
             set
             {
-                if (0 < value && value > 2) _id = value;
-                {
-                    throw new ArgumentException("Bad Id Length");
-                    _id = value;
-                }
+                _id = value;
             }
         }
 
@@ -38,12 +34,10 @@ namespace FootBall
             get => _name;
             set
             {
-                if (value.Length < 4)
-                {
-                    throw new ArgumentException("Bad Name Length");
-                    _name = value;
+                if (value.Length < 4) throw new ArgumentException("Bad Name Length");
+                _name = value;
 
-                }
+
             }
         }
 
@@ -52,11 +46,9 @@ namespace FootBall
             get => _price;
             set
             {
-                if (value <= 0)
-                {
-                    throw new ArgumentException("Bad Pricing");
-                    _price = value;
-                }
+                if (value <= 0) throw new ArgumentOutOfRangeException("Bad Pricing");
+                _price = value;
+
             }
         }
 
@@ -66,13 +58,13 @@ namespace FootBall
             set
             {
                 if (1 <= value && value <= 100) _shirtNumber = value;
-                else throw new ArgumentException("Bad Shirt Number");
+                 throw new ArgumentOutOfRangeException("Bad Shirt Number", value, "Forkert");
             }
         }
 
 
 
-        
+
 
     }
 }
