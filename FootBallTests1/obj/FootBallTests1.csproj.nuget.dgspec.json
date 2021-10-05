@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBallTests1\\FootBallTests1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBallTests1\\FootBallTests1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBallTests1\\FootBallTests1.csproj",
+        "projectName": "FootBallTests1",
+        "projectPath": "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBallTests1\\FootBallTests1.csproj",
+        "packagesPath": "C:\\Users\\Aleksander K S M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBallTests1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aleksander K S M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": ".NETCoreApp,Version=v5.0",
+            "projectReferences": {
+              "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBall\\FootBall.csproj": {
+                "projectPath": "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBall\\FootBall.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": ".NETCoreApp,Version=v5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBall\\FootBall.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBall\\FootBall.csproj",
+        "projectName": "FootBall",
+        "projectPath": "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBall\\FootBall.csproj",
+        "packagesPath": "C:\\Users\\Aleksander K S M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aleksander K S M\\Desktop\\Opgave 3. semester\\Opgave 1\\FootBall\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aleksander K S M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
