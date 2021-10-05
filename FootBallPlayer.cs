@@ -18,6 +18,11 @@ namespace FootBall
             _shirtNumber = shirtnumber;
         }
 
+        public FootBallPlayer()
+        {
+            
+        }
+
 
 
         public int Id
